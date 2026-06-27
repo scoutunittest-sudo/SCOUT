@@ -2,8 +2,7 @@
 
 This repository is based on **ChatUniTest Core** from ZJU-ACES-ISE. The original project provides a Generate-Validate-Fix framework for LLM-based Java unit test generation. This branch keeps that foundation and adds experiment-oriented execution, coverage reporting, SCOUT-specific export behavior, status windows, resume support, and stability controls for large runs. (See [Reference and Attribution](#reference-and-attribution).)
 
-<img width="372" alt="running" src="https://code.samsungsds.com/security-research/python-IR/assets/242/7dece31d-9828-4d52-b98c-b6b4e36f1ce3">
-<img width="372" alt="coverage_running" src="https://code.samsungsds.com/security-research/python-IR/assets/242/04ffbfce-d253-469a-a74d-c68fb5d61b45">
+<img width="372" alt="running" src="./running.png">
 
 *Live terminal status window. **Left:** generation mode (SCOUT/COVERUP/etc.) showing phase, model, thread usage, method progress, and per-run counters. **Right:** coverage-only mode, focused on valid/error counts and coverage progress. The window repaints in place instead of scrolling logs — see [Status Window](#status-window) for what each field means.*
 
