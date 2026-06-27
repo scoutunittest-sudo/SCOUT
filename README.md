@@ -25,7 +25,7 @@ SCOUT is a self-contained, runnable JAR built with Maven.
 
    ```bash
    git clone <repository-url>
-   cd chatunitest-core
+   cd SCOUT
    mvn clean package        # add -DskipTests to skip the test suite
    ```
 
