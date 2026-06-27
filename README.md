@@ -7,6 +7,8 @@ This repository is based on **ChatUniTest Core** from ZJU-ACES-ISE. The original
 
 *Live terminal status window. **Left:** generation mode (SCOUT/COVERUP/etc.) showing phase, model, thread usage, method progress, and per-run counters. **Right:** coverage-only mode, focused on valid/error counts and coverage progress. The window repaints in place instead of scrolling logs — see [Status Window](#status-window) for what each field means.*
 
+**The public repository will be updated with the complete source code and installation instructions once the approval process is completed, and the README will provide the latest release status and access information.**
+
 ## What This Tool Does
 
 ChatUniTest Core generates Java unit tests for Maven projects with an LLM, validates the generated tests, exports passing tests, and optionally reports final coverage.
