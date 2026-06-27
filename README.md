@@ -146,3 +146,12 @@ SCOUT is **derived from ChatUniTest Core**, the LLM-based Java unit test generat
 - Upstream Maven coordinates: `io.github.zju-aces-ise:chatunitest-core` (SCOUT keeps these coordinates; only the build output is renamed to `scout`).
 
 The upstream generate–validate–fix architecture, prompt template system, project parsing, validation pipeline, and the non-SCOUT phases are preserved here. SCOUT adds coverage-guided scenario generation, in-process coverage reporting, the terminal status window, resume support, Gradle target support, and stability controls for large runs. All credit for the original framework belongs to the ChatUniTest authors.
+
+
+## Contact
+
+If you have any questions, feedback, or would like to use SCOUT in your research, please contact the authors:
+
+- frango.lee@samsung.com
+
+
