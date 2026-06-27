@@ -82,8 +82,6 @@ public class StatusWindow {
                 .append(row(RED + "Compile errors : " + compilationErrors + RESET)).append("\n")
                 .append(row(RED + "Runtime errors : " + runtimeErrors + RESET)).append("\n")
                 .append(row(RED + "Timeouts       : " + timeouts + RESET)).append("\n")
-                .append(row("LLM attempts   : " + llmAttempts)).append("\n")
-                .append(row("LLM successes  : " + llmSuccesses)).append("\n")
                 .append(CYAN).append(BORDER).append(RESET).append("\n")
                 .append(row("Output  : " + outputPath)).append("\n")
                 .append(CYAN).append(BORDER).append(RESET);
